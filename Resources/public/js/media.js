@@ -103,7 +103,7 @@ function initFileUpload(selector) {
                 if (file.url) {
                     // Ajax update view
                     $.ajax({
-                        dataType: "json",
+                        //dataType: "json",
                         url: url,
                         type: 'GET'
                     }).done(function (data) {
